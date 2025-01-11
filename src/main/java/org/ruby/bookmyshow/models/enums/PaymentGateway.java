@@ -1,4 +1,7 @@
 package org.ruby.bookmyshow.models.enums;
 
-public class PaymentGateway {
+public enum PaymentGateway {
+    RAZOR_PAY,
+    PHONE_PE,
+    CC_AVENUE
 }
